@@ -62,3 +62,81 @@ to runing program you must be writing a litle coding, like this is "$ echo "This
 19. ex19.py -- function and variables
 
 20. ex20.py -- Exercise 20: Functions and Files
+   '$ python3 ex20.py test.txt' that is the command to run ex20.py
+
+21. ex21.py -- is a example from return fuction
+22. ex24.py -- more practice example,
+\t (backslash + t) is a command for tab
+\' (backslash + any caracter) is a coomand to add any caracter
+\\ (double backslash) is command to add \ (one backslash)
+'dev' is pair with 'return'
+
+23. ex25.py -- is how to work with a python modul
+
+24. ex27.py -- Informatic Logic
+
+25. ex28.py -- how to use informatic logic(boolean)
+
+26. ex29.py -- how to use if
+you can get output, just when coding on the script answer is 'TRUE'
+
+    Rules for If-Statements
+    1. Every if-statement must have an else.
+    2. If this else should never run because it doesn't make sense,
+       then you must use a die function in the else that prints out an error message and dies,
+       just like we did in the last exercise. This will find many errors.
+    3. Never nest if-statements more than two deep and always try to do them one deep.
+    4. Treat if-statements like paragraphs,
+       where each if-elif-else grouping is like a set of sentences.
+       Put blank lines before and after.
+    5. Your boolean tests should be simple.
+       If they are complex,
+       move their calculations to variables earlier in your function and use a good name for the variable.
+
+27. ex30.py -- how to use if, elif, and else
+over all this exercise is same like exercise 29
+
+28. ex31.py -- how to combination raw_input and if, elif, and else
+
+29. ex32.py -- Loops and Lists
+
+30. ### WARNING IN EXERCISE 37 IS THE SIMBOLS REVIEW!!!
+##Rules for Loops
+Use a while-loop only to loop forever, and that means probably never. This only applies to Python; other languages are different.
+Use a for-loop for all other kinds of looping, especially if there is a fixed or limited number of things to loop over.
+
+30. ex33.py -- while loops
+
+31. ex34.py -- List []
+
+32. ex36 -- is how to designing and debugings
+
+33. ex38 -- doing this to list
+
+    ####What Lists Can Do####
+Let's say you want to create a computer game based on Go Fish.
+If you don't know what Go Fish is, take the time now to go read up on it on the internet.
+To do this you would need to have some way of taking the concept of a "deck of cards" and put it into your Python program.
+You then have to write Python code that knows how to work this imaginary version of a deck of cards so that a person playing your game thinks that it's real, even if it isn't.
+What you need is a "deck of cards" structure, and programmers call this kind of thing a "data structure".
+
+What's a data structure? If you think about it,
+a "data structure" is just a formal way to structure (organize) some data (facts).
+It really is that simple, even though some data structures can get insanely complex,
+all they are is just a way to store facts inside a program so you can access them in different ways.
+They structure data.
+
+    #####When to Use Lists#####
+You use a list whenever you have something that matches the list data structure's useful features:
+1. If you need to maintain order.
+   Remember, this is listed order, not sorted order.
+    Lists do not sort for you.
+2. If you need to access the contents randomly by a number.
+   Remember, this is using cardinal numbers starting at 0.
+3. If you need to go through the contents linearly (first to last).
+   Remember, that's what for-loops are for.
+
+Then that's when you use a list.
+
+
+31. ex39 -- all about Dictionaries
