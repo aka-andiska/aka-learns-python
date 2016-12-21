@@ -140,3 +140,32 @@ Then that's when you use a list.
 
 
 31. ex39 -- all about Dictionaries
+
+40. ex40.py -- modules, classes, objects
+
+    # Modules Are Like Dictionaries
+    '''
+    mystuff['apple'] # get apple from dict
+    mystuff.apple() # get apple from the module
+    mystuff.tangerine # same thing, it's just a variable
+    '''
+
+    # Classes Are Like Modules
+    '''
+    class MyStuff(object):
+
+    def __init__(self):
+        self.tangerine = "And now a thousand years between"
+
+    def apple(self):
+        print "I AM CLASSY APPLES!"
+    '''
+
+    # Objects are Like Import
+    If a class is like a "mini-module,"
+    then there has to be a similar concept to import but for classes.
+    That concept is called "instantiate",
+    which is just a fancy, obnoxious, overly smart way to say "create."
+    When you instantiate a class what you get is called an object.
+
+
